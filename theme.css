@@ -1,3 +1,4 @@
+
 :root {
     --Settings-Theme-Version: "DiscordNight v0.9.5.8";
     --Channel-Invite-Edit-Buttons: none;
@@ -102,7 +103,6 @@
     --interactive-muted: #5E5F66;
     --font-display: var(--font-primary);
 }
-
 
 /******************************************** Server List ********************************************/
 
