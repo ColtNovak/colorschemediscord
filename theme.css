@@ -1,18 +1,3 @@
-/**
- * @name DiscordNight
- * @version 0.9.5.8
- * @description Dark and compact theme for BetterDiscord
- * @source https://github.com/KillYoy/DiscordNight/
- * @updateUrl https://raw.githubusercontent.com/KillYoy/DiscordNight/master/DiscordNight.css
- * @website 
- * @donate https://www.paypal.me/KillYoy
- * @patreon 
- * @invite 
- * @author KillYoy#0295
- * @authorId 98468214824001536
- * @authorLink 
-*/
-
 :root {
     --Settings-Theme-Version: "DiscordNight v0.9.5.8";
     --Channel-Invite-Edit-Buttons: none;
@@ -53,36 +38,36 @@
 
 :root,
 .theme-dark {
-    --foreground: #E0C8A0;
-    --background: #16181D;
-    --selection-foreground: #16181D;
-    --selection-background: #F7B500;
-    --cursor: #F7B500;
-    --cursor-text: #16181D;
-    --url-color: #F7B500;
+    --foreground: #D6C5B3;
+    --background: #0C0E12;
+    --selection-foreground: #0C0E12;
+    --selection-background: #FF4971;
+    --cursor: #FF4971;
+    --cursor-text: #0C0E12;
+    --url-color: #FF4971;
     --border-active: #FA5D73;
     --border-inactive: #45475A;
-    --border-bell: #F7B500;
+    --border-bell: #FF4971;
     --active-tab-foreground: #0E0F13;
     --active-tab-background: #FA5D73;
-    --inactive-tab-foreground: #E0C8A0;
+    --inactive-tab-foreground: #D6C5B3;
     --inactive-tab-background: #1E1F28;
     --tab-bar-background: #0E0F13;
     --black: #2A2D37;
     --bright-black: #3B3F4A;
     --red: #FA5D73;
     --bright-red: #FF7D89;
-    --green: #79A86E;
+    --green: #6FB58B;
     --bright-green: #8DC891;
-    --yellow: #F7B500;
+    --yellow: #FFA048;
     --bright-yellow: #FFD750;
-    --blue: #5686F5;
+    --blue: #4BBDAF;
     --bright-blue: #7CAEFF;
-    --magenta: #B570A0;
-    --bright-magenta: #D58BC8;
+    --magenta: #FF4971;
+    --bright-magenta: #FF4971;
     --cyan: #5BC8C6;
     --bright-cyan: #7DEEE6;
-    --white: #E0C8A0;
+    --white: #D6C5B3;
     --bright-white: #F0E1C0;
     --background-primary: #16181D;
     --background-secondary: #161616;
@@ -105,7 +90,7 @@
     --background-mentioned-hover: rgba(250, 166, 26, 0.08);
     --background-mentioned-border: rgba(250, 166, 26, 1);
     --background-mentioned-toolbar: rgb(36, 29, 18);
-    --text-normal: #E0C8A0;
+    --text-normal: #D6C5B3;
     --text-muted: #777777;
     --header-secondary: #CCCCCC;
     --text-positive: hsl(152, calc(var(--saturation-factor, 1) * 48%), 48.6%);
@@ -117,7 +102,6 @@
     --interactive-muted: #5E5F66;
     --font-display: var(--font-primary);
 }
-
 
 
 /******************************************** Server List ********************************************/
