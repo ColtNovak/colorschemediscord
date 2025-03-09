@@ -36,7 +36,6 @@
     --Friends-List-Searchbar: none;
     --Titlebar-Help-Icon: none;
 }
-
 :root,
 .theme-dark {
     --foreground: #D6C5B3;
@@ -102,6 +101,18 @@
     --status-danger-background: var(--text-danger);
     --interactive-muted: #5E5F66;
     --font-display: var(--font-primary);
+
+    /* Buttons and elements */
+    --button-background: #FF4971;
+    --button-text: #D6C5B3;
+    --button-hover-background: #FF7D89;
+    --button-border: #FF4971;
+    --input-background: #1A1C22;
+    --input-text: #D6C5B3;
+    --input-border: #FF4971;
+    --active-status: #6FB58B;
+    --offline-status: #1A1C22;
+    --notification-background: #FF4971;
 }
 
 /******************************************** Server List ********************************************/
